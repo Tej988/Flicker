@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100hv ;
+    opacity: 0.5;
+    object-fit: cover;
+}
+.banner .content{
+    max-width: 750px;
+    text-align: center;
+    position: relative;
+}
+.banner .content h2 {
+    color: #ffffff;
+    font-size: 60px;
+}
+.banner .content p {
+    color: #ffffff;
+    font-size: 18px;
+}
+.banner header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.banner header .logo{
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.banner header .toggle{
+    position: relative;
+    width: 36px;
+    height: 28px;
+    background: url("../images/toggle.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.about{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.about .contentbox{
+    padding: 100px;
+    width: 50%;
+    background-color: #162c3b;
+}
+ .heading{
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+ .text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.about .imgbox{
+    background: url("../images/window.jpg");
+    background-position: center;
+    width: 50%;
+    background-size: cover;
+}
+.services{
+    background-color: #12222d;
+    text-align: center;
+    padding: 100px;
+}
+.services .contatiner{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+.services .contatiner .servicebx{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+}
+.services .contatiner .servicebx1{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: -40%;
+}
+.services .contatiner .servicebx2{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: -40%;
+}
+.services .heading{
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.services .text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.services .contatiner .servicebx .servicebx1 .servicebx2{
+    max-width: 100px;
+
+}
+
+.technology{
+    background: #3f8ff3;
+    width: 100%;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 300px;
+    margin-top: -300px;
+}
+.technology .contentbox{
+    max-width: 800px;
+}
+.technology .imgbox{
+    max-width: 250px;
+}
+.technology .imgbox img{
+    max-width: 100%;
+}
+.client{
+    background: #162c3b;
+    padding: 100px;
+    align-items: center;
+}
+.client .heading{
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+    text-align: center;
+}
+.client .text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.client .imgbox{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.client .imgbox img{
+    max-width: 200px;
+    opacity: 0.25;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.client .imgbox img:hover{
+    opacity: 1;
+}
+.testimonial{
+    background-color: #12221d;
+    position: relative;
+    pad: 100px;
+    text-align: center;
+}
+.testimonial .contatiner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-right: 200px; 
+    padding-left: 200px;
+}
+.testimonial .contatiner .contentbox{
+    background-color: #fff;
+    padding: 60px 100px 0;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.testimonial .contatiner .contentbox p{
+    font-style: italic;
+}
+.testimonial .contatiner .contentbox h3{
+    width: 100%;
+    text-align: end;
+    font-weight: 500;
+    color: #3f8ff3;
+    padding-top: 30px;
+}
+.contact{
+    padding: 100px;
+    background-color: #162c3b;
+    text-align: center;
+}
+.imgBx2{
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.redgb{
+    background: url("../images/red.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.from .inputbox{
+    margin-bottom: 40px;
+}
+.form .inputbox input{
+    width: 100%;
+    background-color:#12222d ;
+    box-shadow: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.form  .inputbox input::placeholder{
+    color: #fff;
+}
+.form .inputbox textarea{
+    width: 100%;
+    background-color:transparent ;
+    box-shadow: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    min-height: 150px;
+    border-bottom: 2px solid #fff;
+}
+.form  .inputbox textarea::placeholder{
+    color: #fff;
+}
+.form .inputbox1 [type="submit"]{
+    width: 150px;
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+    font-weight: 400;
+}
+.footer{
+    background-color: #162c3b;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    display: inline;
+    margin: 0 10px;
+}
+.footer ul li a img{
+    filter: invert(1);
+    max-width: 20px;
+}
+/*@media(max-width:991px){
+    .banner{
+        padding: 50px;
+    }
+    .banner header{
+        padding: 20px 50px;
+    }
+    .banner .content h2{
+        font-size: 36px;
+    }
+    .banner .content p{
+        font-size: 16px;
+    }
+}   .about{
+    flex-direction: column;
+}   .about .contentbox ,
+    .about     .imgbox{
+        width: 100%;
+        padding: 50px;
+        min-height: 400px;
+        text-align: center;
+    }
+    .services{
+        padding: 50px;
+    }
+    .services .contatiner{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .services .contatiner .servicebx   {
+        margin: 20px; 
+        width: 300px;
+        height: 350px;
+    }
